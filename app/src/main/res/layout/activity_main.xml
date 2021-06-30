@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/primary_color">
+
 
     <LinearLayout
         android:layout_centerInParent="true"
@@ -16,14 +18,14 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@drawable/chit_chat"/>
+            android:background="@drawable/light_chit_chat"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="ChitChat"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="25dp"
             android:fontFamily="spartan_bold"/>
 
@@ -32,7 +34,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Chat until you are tired!!!"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="15dp"
             android:fontFamily="spartan_thin"/>
 
@@ -50,14 +52,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="from"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:fontFamily="spartan_thin"
             android:gravity="center"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Adrian Ortiz"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:fontFamily="spartan_regular"
             android:gravity="center"/>
 
